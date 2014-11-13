@@ -1,0 +1,159 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: se ingresa al directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o -c /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+cc1plus: aviso: la opción de línea de órdenes ‘-Wmissing-prototypes’ es válida para Ada/C/ObjC pero no para C++ [activado por defecto]
+cc1plus: aviso: la opción de línea de órdenes ‘-Wstrict-prototypes’ es válida para Ada/C/ObjC pero no para C++ [activado por defecto]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘void cmakeRequireSymbol(int, ...)’:
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:4:6: aviso: no hay declaración previa para ‘void cmakeRequireSymbol(int, ...)’ [-Wmissing-declarations]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘int main()’:
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:25: error: ‘Q_WS_WIN’ no se declaró en este ámbito
+En el ámbito global:
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-unnamed-type-template-args" [activado por defecto]
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-delete-non-virtual-dtor" [activado por defecto]
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-narrowing" [activado por defecto]
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_WIN
+  cmakeRequireSymbol(0,&Q_WS_WIN);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: se ingresa al directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o -c /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+cc1plus: aviso: la opción de línea de órdenes ‘-Wmissing-prototypes’ es válida para Ada/C/ObjC pero no para C++ [activado por defecto]
+cc1plus: aviso: la opción de línea de órdenes ‘-Wstrict-prototypes’ es válida para Ada/C/ObjC pero no para C++ [activado por defecto]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘void cmakeRequireSymbol(int, ...)’:
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:4:6: aviso: no hay declaración previa para ‘void cmakeRequireSymbol(int, ...)’ [-Wmissing-declarations]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘int main()’:
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:25: error: ‘Q_WS_QWS’ no se declaró en este ámbito
+En el ámbito global:
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-unnamed-type-template-args" [activado por defecto]
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-delete-non-virtual-dtor" [activado por defecto]
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-narrowing" [activado por defecto]
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: se sale del directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_QWS
+  cmakeRequireSymbol(0,&Q_WS_QWS);
+#endif
+  return 0;
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: se ingresa al directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG -I/usr/include/qt4    -o CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o -c /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+cc1plus: aviso: la opción de línea de órdenes ‘-Wmissing-prototypes’ es válida para Ada/C/ObjC pero no para C++ [activado por defecto]
+cc1plus: aviso: la opción de línea de órdenes ‘-Wstrict-prototypes’ es válida para Ada/C/ObjC pero no para C++ [activado por defecto]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘void cmakeRequireSymbol(int, ...)’:
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:4:6: aviso: no hay declaración previa para ‘void cmakeRequireSymbol(int, ...)’ [-Wmissing-declarations]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: En la función ‘int main()’:
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:25: error: ‘Q_WS_MAC’ no se declaró en este ámbito
+En el ámbito global:
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-unnamed-type-template-args" [activado por defecto]
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-delete-non-virtual-dtor" [activado por defecto]
+cc1plus: aviso: no se reconoce la opción de línea de órdenes "-Wno-narrowing" [activado por defecto]
+make[1]: se sale del directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckSymbolExists.cxx.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+File /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+#ifndef Q_WS_MAC
+  cmakeRequireSymbol(0,&Q_WS_MAC);
+#endif
+  return 0;
+}
+
+Determining if the include file linux/videodev.h exists failed with the following output:
+Change Dir: /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: se ingresa al directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: aviso: la opción de línea de órdenes ‘-Wsign-promo’ es válida para C++/ObjC++ pero no para C [activado por defecto]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:28: error fatal: linux/videodev.h: No existe el archivo o el directorio
+compilación terminada.
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: se sale del directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file sys/videoio.h exists failed with the following output:
+Change Dir: /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: se ingresa al directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: aviso: la opción de línea de órdenes ‘-Wsign-promo’ es válida para C++/ObjC++ pero no para C [activado por defecto]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: error fatal: sys/videoio.h: No existe el archivo o el directorio
+compilación terminada.
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: se sale del directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file ffmpeg/avformat.h exists failed with the following output:
+Change Dir: /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: se ingresa al directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+/usr/bin/cmake -E cmake_progress_report /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -fsigned-char -W -Wall -Werror=return-type -Werror=address -Werror=sequence-point -Wformat -Werror=format-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wno-narrowing -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -fdiagnostics-show-option -pthread -march=i686 -fomit-frame-pointer -msse -msse2 -msse3 -mfpmath=sse -ffunction-sections   -O3 -DNDEBUG   -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+cc1: aviso: la opción de línea de órdenes ‘-Wsign-promo’ es válida para C++/ObjC++ pero no para C [activado por defecto]
+/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:29: error fatal: ffmpeg/avformat.h: No existe el archivo o el directorio
+compilación terminada.
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: se sale del directorio «/home/olbitla/opencv-2.4.8/build/CMakeFiles/CMakeTmp»
+make: *** [cmTryCompileExec/fast] Error 2
+
+
