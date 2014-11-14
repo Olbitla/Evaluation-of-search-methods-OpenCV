@@ -1,6 +1,0 @@
-chmod +x detectorClassroom.sh
-chmod +x descriptorsClassroom.sh
-chmod +x Classroom/matchesClassroom.sh
-./detectorClassroom.sh
-./descriptorsClassroom.sh
-./matchesClassroom.sh
