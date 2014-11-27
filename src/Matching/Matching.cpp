@@ -29,9 +29,7 @@ int main( int argc, char** argv )
   String filenameReadOne = (argv[3]);   //../data/Lata/Descriptors/$i$j/dates1.yml
   String filenameReadTwo = (argv[4]);   //../data/Lata/Detectors/$i/dates1.yml;
   String filenameWrite = (argv[5]);
-  //String ImageName = (argv[6]);
   const char* bboxes = (argv[6]);
-  //String ImageRect = (argv[8]);
   
   FileStorage stgReadOne(filenameReadOne, FileStorage::READ);
   FileStorage stgReadTwo(filenameReadTwo,FileStorage::READ);
@@ -50,11 +48,9 @@ int main( int argc, char** argv )
   
   ptr_file = fopen(bboxes,"r");
   int cInt1, cInt2, cInt3, cInt4;
-  //cout << "\tEl contenido del archivo de prueba es" << endl;
   for(int i=1; i<2; i++ )
   {
     fscanf( ptr_file, "%d\t%d\t%d\t%d\n", &cInt1, &cInt2, &cInt3, &cInt4 );
-    //printf( "%d\t%d\t%d\t%d\n", cInt1, cInt2, cInt3, cInt4 );
   }
   CvPoint pt1, pt2;
   pt1.x = cInt1;
@@ -73,7 +69,6 @@ int main( int argc, char** argv )
   kpFoundM = matches.size();
      
   ///////////////////////////// Umbral Nearest Neighbor///////////////////////////////////////    
-  //cout << "Matches Size: (" << matches.size() << "," << matches[0].size() << ")" << endl;
   int i = 0;  
   for( vector< vector<DMatch> >::iterator it = matches.begin(); it != matches.end(); it++ )
   {   
@@ -104,12 +99,6 @@ int main( int argc, char** argv )
   /////////////////////////// Draw matches////////////////////////////////////
     
   Mat imgMatch;    
-  //int fontFace = FONT_HERSHEY_SIMPLEX;
-  //double fontScale = 2;
-  //int thickness = 3; 
-  //int baseline=0;
-  //Size textSize = getTextSize(ImageB, fontFace, fontScale, thickness, &baseline);
-  //putText(imgB, ImageB, pt1, fontFace, fontScale, Scalar::all(255), thickness, 8);
   
   drawMatches(imgA,keypointsA,imgB,keypointsB,good_matches,imgMatch,Scalar::all(-1));
   drawKeypoints(imgB,keypointsB,imgB,Scalar::all(-1));
@@ -125,8 +114,6 @@ int main( int argc, char** argv )
   optimization =  ((kpFoundM-kpFoundG)*100)/kpFoundM;
   stgWrite << "Optimization " << optimization;
 
-  //imwrite(ImageRect, imgB);
-  //imwrite(ImageName,imgMatch);
   cout << "Finish" << endl;
   stgReadTwo.release();
   stgWrite.release();
